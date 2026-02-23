@@ -1,0 +1,287 @@
+@media(max-width:600px) {
+    
+
+body{
+    margin: 1rem;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-parentsec{
+/* background-color: rgb(229, 39, 39); */
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 1rem;
+padding-left: 0.4rem;
+
+}
+
+.userlogo{
+    border-radius: 50%;
+    padding: 0.4rem;
+    /* background-color: aqua; */
+    border: 1px solid;
+   
+}
+.nav-childsec{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    /* width: 3rem; */
+    /* padding: 0.5rem; */
+}
+.searchbar-parent{
+    background-color: rgb(249, 246, 245);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+    padding-left: 2.4rem;
+    /* background-color: aqua; */
+    margin-bottom: 1rem;
+}
+.searchlogo{
+ /* background-color: rgb(255, 0, 255); */
+ /* margin-left: 4rem; */
+ padding: 0.3rem;
+}
+.searchbar-child1{
+    /* background-color: rgb(246, 84, 84); */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* width: 300px; */
+    padding: 0.1rem 0.4rem;
+    border: 1px solid ;
+    border-radius: 1rem;
+    /* margin-left: 6rem; */
+    /* background-color: rgb(153, 74, 227); */
+}
+
+.searchbar-child1 input{
+    /* background-color: rgb(43, 226, 58); */
+    /* border-radius: 0.4rem; */
+    border: none;
+    border-color: white;
+    /* padding: 0.4rem; */
+}
+
+.searchbar-child2{
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 200px;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+}
+
+.microphone-logo{
+    /* background-color: chocolate; */
+    padding: 0.5rem;
+}
+.camera-logo{
+    /* background-color: burlywood; */
+    padding: 0.5rem;
+}
+
+
+.categories-parent{
+    background-color: rgb(244, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    /* background-color: pink; */
+}
+.categories-parent a{
+    text-decoration: none;
+    color: black;
+    /* background-color: brown; */
+}
+
+.home-parentsec{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: rgb(204, 32, 84); */
+    /* justify-content: center; */
+    /* margin: 0.5rem; */
+
+}
+
+.homechild-sec img{
+    width: 40px;
+    height: 40px;
+}
+.homechild-sec{ 
+    /* background-color: rgb(0, 208, 255); */
+    margin: 0.1rem;
+    padding: 0 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-parentsec img{
+    border-radius: 1rem;
+
+}
+
+
+.advertisement img {
+  max-width: 100%;
+  height: auto;
+  /* background-color: chartreuse; */
+}
+.advertisement img{
+    margin: 1rem 0;
+    /* background-color:pink; */
+    /* padding: 1rem 0.4rem; */
+     
+}
+
+.article-parent{
+    /* background-color: aqua; */
+    /* padding: 1rem; */
+}
+
+.article-heading{
+ /* background-color: yellow; */
+ font-size: 1.2rem;
+}
+
+.article-child{
+    /* background-color: rgb(168, 31, 31); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 1rem; */
+    
+   
+}
+
+.article-child1{
+    margin: 0.4rem;
+    /* background-color: rgb(249, 255, 127); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid rgb(227, 54, 54); */
+    border-radius: 1rem;
+
+}
+.article-child img{
+    border-radius: 1rem;
+    height: 100px;
+    width: 90px;
+}
+.article-child1 p{
+    /* background-color: rgb(28, 193, 31); */
+    margin: 0.3em;
+    color: rgb(89, 87, 87);
+}
+
+.article-parent h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.offerzone-heading{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 20%;
+    border: 1px solid black;
+    background-color:red;
+    /* padding: 0.2rem; */
+   
+    
+}
+.offerzone-parent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+    /* background-color: aqua; */
+    /* margin: 1rem; */
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 1rem; */
+
+
+}
+
+.offerzone-child img{
+    border-radius: 4rem;
+}
+.offerzone-child{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem ;
+    border-radius: 1rem;
+    
+}
+
+
+.footer{
+    background-color: rgb(233, 232, 232);
+    margin: 1rem 0;
+    padding: 1rem;
+    /* background-color: rgb(218, 27, 27); */
+}
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: red; */
+    font-weight: 2000;
+    font-size: 2rem;
+    /* padding: 1rem 0rem; */
+    margin: 0;
+    /* background-color: aqua; */
+}
+
+.footer-child{
+margin: 0%;
+/* background-color:rgb(183, 221, 30); */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+}
+.footer-child a{
+    text-decoration: none;
+    color: rgb(84, 82, 82);
+    /* background-color: rgb(166, 0, 255); */
+    padding: 0.4rem;
+}
+.footer-child1{
+    /* background-color: rgb(0, 255, 145); */
+    padding: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-child2{
+    display: flex;
+    justify-content: center;
+    /* background-color: darkmagenta; */
+}
+
+.logo{
+/* background-color: rgb(0, 255, 89); */
+padding: 0.4rem;
+}
+
+
+}
